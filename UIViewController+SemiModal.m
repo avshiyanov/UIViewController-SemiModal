@@ -5,6 +5,8 @@
 #define kSheetModalViewController @"kSemiModalViewController"
 #define kSheetModalView @"kSemiModalView"
 
+// Presenting semimodal controller 
+
 @implementation UIViewController (SemiModal)
 
 - (void)presentSheetViewController:(UIViewController *)vc animated:(BOOL)animated
